@@ -6,9 +6,10 @@ This is a fullstack ecommerce application built with React for the frontend and 
 
 - Product catalog with search and filtering
 - Shopping cart functionality
-- User authentication (if implemented)
-- Order tracking
+- Checkout process with delivery options
+- Order management and tracking
 - Responsive design
+- Fullstack application with deployed backend
 
 ## Tech Stack
 
@@ -113,6 +114,9 @@ starting-files/  # Initial files for the project
 - npm or yarn
 
 ### Backend Setup
+The backend is deployed on Render at `https://ecommerce-backend.onrender.com/api`.
+
+For local development:
 1. Navigate to the backend directory:
    ```
    cd ecommerce-backend
@@ -141,6 +145,9 @@ starting-files/  # Initial files for the project
    npm run dev
    ```
    The frontend will run on `http://localhost:5173` (default Vite port).
+
+### Connecting to Live Backend
+The frontend is configured to connect to the deployed backend at `https://ecommerce-backend.onrender.com/api`. No additional setup is required for the live backend connection.
 
 ### Running Tests
 - For frontend tests:
